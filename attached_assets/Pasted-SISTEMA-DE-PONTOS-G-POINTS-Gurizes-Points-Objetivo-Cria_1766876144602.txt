@@ -1,0 +1,193 @@
+SISTEMA DE PONTOS — G POINTS (Gurizes Points)
+Objetivo
+
+Criar um sistema de recompensa por atividade real no servidor, baseado em:
+
+Tempo em call
+
+Frequência de interação no chat
+
+Sem economia paralela, sem moedas antigas, sem loja por enquanto (pode vir depois).
+
+MOEDA
+
+Nome da moeda:
+G Point
+Abreviação interna: gpoints
+
+Não transferível entre membros
+
+Não comprável
+
+Não resetável automaticamente
+
+Apenas acumulável por atividade
+
+COMO GANHAR G POINTS
+1. TEMPO EM CALL
+
+Regras:
+
+Conta apenas quando o membro estiver:
+
+Em call de voz
+
+Não muteado pelo servidor (server mute)
+
+AFK não conta
+
+Bot ignora bots
+
+Exemplo de ganho:
+
+X G Points a cada Y minutos em call
+
+O valor exato:
+
+Deve ser configurável futuramente no painel
+
+Se não configurado, usar padrão fixo
+
+O bot deve:
+
+Registrar tempo total em call
+
+Converter tempo em G Points
+
+Atualizar em tempo real ou em ciclos (ex: a cada 1 minuto)
+
+2. INTERAÇÃO NO CHAT
+
+Regras:
+
+Conta mensagens enviadas
+
+Ignora:
+
+Bots
+
+Mensagens repetidas (spam simples)
+
+Pode usar cooldown por usuário
+
+Exemplo:
+
+1 mensagem válida = X G Points
+
+Cooldown entre mensagens válidas (ex: 30s)
+
+O bot deve:
+
+Contabilizar mensagens válidas
+
+Somar G Points gradualmente
+
+Evitar farm automático
+
+DADOS QUE DEVEM SER SALVOS POR USUÁRIO
+
+ID do usuário
+
+G Points acumulados (total)
+
+Tempo total em call (em segundos/minutos)
+
+Quantidade de mensagens válidas contabilizadas
+
+Última atividade registrada (opcional, para anti-spam)
+
+COMANDO !perfil (ATUALIZADO)
+
+O comando !perfil deve ser ajustado para mostrar:
+
+Informações obrigatórias:
+
+Usuário
+
+G Points acumulados
+
+Tempo total em call (formatado: horas/minutos)
+
+Total de mensagens contabilizadas
+
+Regras:
+
+Sem emojis automáticos
+
+Visual limpo e minimalista
+
+Apenas embed
+
+Funciona apenas dentro do Discord
+
+COMANDO !g top
+
+Objetivo:
+Mostrar ranking dos membros mais ativos com base em G Points acumulados.
+
+Funcionamento:
+
+Lista ordenada do maior para o menor
+
+Exibe os Top X membros (ex: Top 10)
+
+Formato da embed:
+
+membro — X G Points
+
+membro — X G Points
+
+membro — X G Points
+...
+
+Regras:
+
+Ignorar bots
+
+Mostrar apenas membros existentes no servidor
+
+Se alguém saiu do servidor, não aparece no ranking
+
+REGRAS IMPORTANTES
+
+Todo o sistema de economia anterior deve ser removido
+
+G Points passam a ser o único sistema de pontuação
+
+Nenhum dashboard web
+
+Nenhuma página externa
+
+Nenhum modal
+
+Tudo via comandos, embeds, botões e mensagens no chat
+
+INTEGRAÇÃO FUTURA (NÃO IMPLEMENTAR AGORA)
+
+A IA NÃO deve implementar agora, mas deve deixar o sistema preparado para:
+
+Recompensas por G Points
+
+Cargos automáticos por quantidade de pontos
+
+Loja interna baseada em G Points
+
+Se houver dúvida sobre isso:
+
+Perguntar antes
+
+Não inventar funcionalidade
+
+COMPORTAMENTO DA IA (REFORÇO)
+
+Perguntar sempre que houver dúvida
+
+Não inventar comandos
+
+Não criar economia paralela
+
+Não gerar dashboard
+
+Não sair do Discord
+
+Manter padrão minimalista do bot

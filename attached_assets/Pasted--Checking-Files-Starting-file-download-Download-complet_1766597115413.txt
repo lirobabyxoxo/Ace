@@ -1,0 +1,142 @@
+📥 Checking Files...
+📥 Starting file download...
+✅ Download completed successfully!
+📦 Checking files and dependencies...
+🚀 Generating files...
+
+
+ Service 1427437680504864870  Building
+Sending build context to Docker daemon  1.353kB
+Step 1/13 : FROM node:lts-slim
+ ---> 5c422e433920
+
+ ---> Using cache
+ ---> 1efe1dfcf16a
+Step 3/13 : ENV DEBIAN_FRONTEND=noninteractive
+ ---> Using cache
+ ---> c79386c15a87
+
+ ---> Using cache
+ ---> d172b41d4fd4
+Step 5/13 : ENV HOME=/home/node
+ ---> Using cache
+ ---> 2ad67887d226
+Step 6/13 : ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
+ ---> Using cache
+ ---> e28186fc15a6
+Step 7/13 : ENV PATH=$PATH:/home/node/.npm-global/bin
+ ---> Using cache
+ ---> 459fc5289c30
+Step 8/13 : WORKDIR $HOME
+ ---> Using cache
+ ---> c0de3369dcf1
+
+ ---> 939fe3d2475b
+Setting environment permissions
+ ---> Running in 05f455e95cec
+ ---> Removed intermediate container 05f455e95cec
+ ---> 6f284e6ab94a
+
+ ---> Running in 273954c12fc9
+ ---> Removed intermediate container 273954c12fc9
+ ---> 6ffecf466897
+Step 12/13 : RUN npm install
+ ---> Running in 65a5f42ca757
+npm warn deprecated har-validator@5.1.5: this library is no longer supported
+npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+npm warn deprecated lodash.get@4.4.2: This package is deprecated. Use the optional chaining (?.) operator instead.
+npm warn deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated domexception@2.0.1: Use your platform's native DOMException instead
+npm warn deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+npm warn deprecated request-promise@4.2.6: request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated gauge@3.0.2: This package is no longer supported.
+npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm warn deprecated json2csv@4.5.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm error code 1
+npm error path /home/node/node_modules/canvas
+npm error command failed
+npm error command sh -c node-pre-gyp install --fallback-to-build --update-binary
+npm error Failed to execute '/usr/local/bin/node /usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js configure --fallback-to-build --update-binary --module=/home/node/node_modules/canvas/build/Release/canvas.node --module_name=canvas --module_path=/home/node/node_modules/canvas/build/Release --napi_version=10 --node_abi_napi=napi --napi_build_version=0 --node_napi_label=node-v127' (1)
+npm error node-pre-gyp info it worked if it ends with ok
+npm error node-pre-gyp info using node-pre-gyp@1.0.11
+npm error node-pre-gyp info using node@22.17.1 | linux | x64
+npm error node-pre-gyp http GET https://github.com/Automattic/node-canvas/releases/download/v2.11.2/canvas-v2.11.2-node-v127-linux-glibc-x64.tar.gz
+npm error node-pre-gyp ERR! install response status 404 Not Found on https://github.com/Automattic/node-canvas/releases/download/v2.11.2/canvas-v2.11.2-node-v127-linux-glibc-x64.tar.gz 
+npm error node-pre-gyp WARN Pre-built binaries not installable for canvas@2.11.2 and node@22.17.1 (node-v127 ABI, glibc) (falling back to source compile with node-gyp) 
+npm error node-pre-gyp WARN Hit error response status 404 Not Found on https://github.com/Automattic/node-canvas/releases/download/v2.11.2/canvas-v2.11.2-node-v127-linux-glibc-x64.tar.gz 
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.0.0
+npm error gyp info using node@22.17.1 | linux | x64
+npm error gyp info ok 
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.0.0
+npm error gyp info using node@22.17.1 | linux | x64
+npm error gyp info find Python using Python version 3.11.2 found at "/usr/bin/python3"
+npm error gyp http GET https://nodejs.org/download/release/v22.17.1/node-v22.17.1-headers.tar.gz
+npm error gyp http 200 https://nodejs.org/download/release/v22.17.1/node-v22.17.1-headers.tar.gz
+npm error gyp http GET https://nodejs.org/download/release/v22.17.1/SHASUMS256.txt
+npm error gyp http 200 https://nodejs.org/download/release/v22.17.1/SHASUMS256.txt
+npm error gyp info spawn /usr/bin/python3
+npm error gyp info spawn args [
+npm error gyp info spawn args '/usr/local/lib/node_modules/npm/node_modules/node-gyp/gyp/gyp_main.py',
+npm error gyp info spawn args 'binding.gyp',
+npm error gyp info spawn args '-f',
+npm error gyp info spawn args 'make',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args '/home/node/node_modules/canvas/build/config.gypi',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args '/usr/local/lib/node_modules/npm/node_modules/node-gyp/addon.gypi',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args '/home/node/.cache/node-gyp/22.17.1/include/node/common.gypi',
+npm error gyp info spawn args '-Dlibrary=shared_library',
+npm error gyp info spawn args '-Dvisibility=default',
+npm error gyp info spawn args '-Dnode_root_dir=/home/node/.cache/node-gyp/22.17.1',
+npm error gyp info spawn args '-Dnode_gyp_dir=/usr/local/lib/node_modules/npm/node_modules/node-gyp',
+npm error gyp info spawn args '-Dnode_lib_file=/home/node/.cache/node-gyp/22.17.1/<(target_arch)/node.lib',
+npm error gyp info spawn args '-Dmodule_root_dir=/home/node/node_modules/canvas',
+npm error gyp info spawn args '-Dnode_engine=v8',
+npm error gyp info spawn args '--depth=.',
+npm error gyp info spawn args '--no-parallel',
+npm error gyp info spawn args '--generator-output',
+npm error gyp info spawn args 'build',
+npm error gyp info spawn args '-Goutput_dir=.'
+npm error gyp info spawn args ]
+npm error /bin/sh: 1: pkg-config: not found
+npm error gyp: Call to 'pkg-config pixman-1 --libs' returned exit status 127 while in binding.gyp. while trying to load binding.gyp
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: `gyp` failed with exit code: 1
+npm error gyp ERR! stack at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/configure.js:317:18)
+npm error gyp ERR! stack at ChildProcess.emit (node:events:518:28)
+npm error gyp ERR! stack at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+npm error gyp ERR! System Linux 5.15.0-163-generic
+npm error gyp ERR! command "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "configure" "--fallback-to-build" "--update-binary" "--module=/home/node/node_modules/canvas/build/Release/canvas.node" "--module_name=canvas" "--module_path=/home/node/node_modules/canvas/build/Release" "--napi_version=10" "--node_abi_napi=napi" "--napi_build_version=0" "--node_napi_label=node-v127"
+npm error gyp ERR! cwd /home/node/node_modules/canvas
+npm error gyp ERR! node -v v22.17.1
+npm error gyp ERR! node-gyp -v v11.0.0
+npm error gyp ERR! not ok 
+npm error node-pre-gyp ERR! build error 
+npm error node-pre-gyp ERR! stack Error: Failed to execute '/usr/local/bin/node /usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js configure --fallback-to-build --update-binary --module=/home/node/node_modules/canvas/build/Release/canvas.node --module_name=canvas --module_path=/home/node/node_modules/canvas/build/Release --napi_version=10 --node_abi_napi=napi --napi_build_version=0 --node_napi_label=node-v127' (1)
+npm error node-pre-gyp ERR! stack     at ChildProcess.<anonymous> (/home/node/node_modules/@mapbox/node-pre-gyp/lib/util/compile.js:89:23)
+npm error node-pre-gyp ERR! stack     at ChildProcess.emit (node:events:518:28)
+npm error node-pre-gyp ERR! stack     at maybeClose (node:internal/child_process:1101:16)
+npm error node-pre-gyp ERR! stack     at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+npm error node-pre-gyp ERR! System Linux 5.15.0-163-generic
+npm error node-pre-gyp ERR! command "/usr/local/bin/node" "/home/node/node_modules/.bin/node-pre-gyp" "install" "--fallback-to-build" "--update-binary"
+npm error node-pre-gyp ERR! cwd /home/node/node_modules/canvas
+npm error node-pre-gyp ERR! node -v v22.17.1
+npm error node-pre-gyp ERR! node-pre-gyp -v v1.0.11
+npm error node-pre-gyp ERR! not ok
+npm notice
+npm notice New major version of npm available! 10.9.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+npm error A complete log of this run can be found in: /home/node/.npm/_logs/2025-12-24T17_24_06_045Z-debug-0.log
+The command '/bin/sh -c npm install' returned a non-zero code: 1
+❌ Error during application rebuild
+ERRO: We identified an error in your file package.json, correct it and try again.

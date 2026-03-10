@@ -1,0 +1,163 @@
+PROMPT FINAL — COMANDOS !roblox, !instagram, !ig e !tiktok (SEM EMOTES)
+COMPORTAMENTO OBRIGATÓRIO DA IA
+
+Antes de gerar qualquer código, perguntar sempre que houver dúvida.
+
+Não inventar funções, comandos ou sistemas que não foram pedidos.
+
+Não gerar dashboards web, páginas HTML, Express, React ou qualquer painel externo.
+
+Todo o funcionamento deve acontecer exclusivamente dentro do Discord.
+
+O uso de APIs externas é permitido, mas a IA deve perguntar e orientar como obter tokens/chaves quando necessário.
+
+Se alguma informação não puder ser obtida por limitações da API, avisar claramente.
+
+COMANDO !roblox
+Uso
+!roblox <username>
+
+Informações exibidas na embed
+
+username
+
+display name
+
+ID do usuário
+
+seguidores
+
+seguindo
+
+amigos
+
+quantidade de pessoas que seguem o usuário
+
+badges (listar ou resumir conforme limite)
+
+grupos/servidores (Roblox Groups)
+
+status online/offline
+
+data de criação da conta
+
+Imagem da embed
+
+avatar do usuário Roblox
+
+Botão
+
+"Acessar perfil"
+
+redireciona para o perfil oficial do Roblox do usuário
+
+Regras
+
+Buscar informações sempre em tempo real
+
+Caso algum dado não esteja disponível, informar na embed
+
+Não usar emojis automaticamente
+
+COMANDO !instagram / !ig
+Uso
+!instagram <username>
+!ig <username>
+
+Informações exibidas na embed
+
+foto de perfil
+
+seguidores
+
+seguindo
+
+número de publicações
+
+bio
+
+conta verificada (sim/não)
+
+status do perfil (público ou privado)
+
+Perfil privado
+
+Mostrar os dados disponíveis
+
+Informar claramente que o perfil é privado
+
+Não tentar acessar conteúdos privados
+
+Botão
+
+"Acessar perfil"
+
+redireciona para o perfil oficial do Instagram
+
+COMANDO !tiktok
+Uso
+!tiktok <username>
+
+Informações exibidas na embed
+
+foto de perfil
+
+seguidores
+
+seguindo
+
+total de curtidas
+
+número de vídeos
+
+bio
+
+conta verificada (sim/não)
+
+status do perfil (público ou privado)
+
+Perfil privado
+
+Mostrar as informações disponíveis
+
+Informar claramente que o perfil é privado
+
+Botão
+
+"Acessar perfil"
+
+redireciona para o perfil oficial do TikTok
+
+PADRÕES VISUAIS E DE FUNCIONAMENTO
+
+Usar apenas embeds limpas
+
+Não usar emojis automaticamente
+
+Não exagerar em formatação
+
+Um comando por resposta
+
+Botões apenas quando fizerem sentido (ex: acessar perfil)
+
+APIs E TOKENS
+
+Caso seja necessário token ou chave de API:
+
+A IA deve explicar exatamente onde obter
+
+Explicar permissões necessárias
+
+Não inventar tokens
+
+Se existir alternativa pública sem autenticação, preferir essa opção
+
+REGRAS FINAIS
+
+Tudo funciona apenas dentro do Discord
+
+Nenhum painel externo
+
+Nenhum sistema além do solicitado
+
+Sempre confirmar dúvidas antes de implementa

@@ -1,0 +1,113 @@
+PROMPT — AJUSTES GERAIS DO BOT (PAINEL, EMBEDS E REGRAS)
+
+COMPORTAMENTO OBRIGATÓRIO DA IA
+
+* Antes de gerar qualquer código, perguntar sempre que houver dúvida.
+* Não inventar funções, comandos ou sistemas não solicitados.
+* Não gerar dashboards web.
+* Não gerar páginas HTML, Express, React ou painéis externos.
+* Todo o funcionamento deve acontecer exclusivamente dentro do Discord.
+* Não utilizar modais.
+* Utilizar apenas embeds, botões e mensagens no chat.
+* Estilo minimalista, sem emojis automáticos.
+* NÃO assumir permissões, cargos ou canais automaticamente.
+* Testar todo o fluxo e lógica antes de finalizar qualquer implementação.
+
+---
+
+AJUSTES NO !painel
+
+Objetivo:
+Corrigir comportamentos inconsistentes do painel e garantir fluxo previsível.
+
+Regras gerais:
+
+* O !painel deve sempre retornar para a última tela válida ao cancelar uma ação.
+* Nenhuma ação parcial deve ser salva sem confirmação explícita.
+* Botões inválidos ou fora de contexto devem ser ignorados.
+* Se alguma configuração estiver quebrada ou ausente, o bot deve informar claramente.
+
+O !painel deve:
+
+* Refletir sempre o estado atual das configurações
+* Não duplicar mensagens desnecessariamente
+* Manter navegação estável entre telas
+
+---
+
+EMBEDS DE EDIÇÃO (MUTE / BAN)
+
+Alterações obrigatórias:
+
+* Embeds de edição devem permitir:
+
+  * Imagens estáticas
+  * GIFs
+* URLs de imagem e GIF devem ser aceitas normalmente
+* Caso a imagem seja inválida, o bot deve informar o erro
+
+---
+
+EMBEDS DE PUNIÇÃO (MUTE / BAN)
+
+PADRÃO OBRIGATÓRIO
+
+* Toda embed de punição deve usar, por padrão:
+
+  * Thumbnail = avatar do usuário NO SERVIDOR (guild avatar)
+* Caso o usuário não possua avatar de servidor:
+
+  * Usar o avatar global como fallback
+
+Informações exibidas:
+
+* Usuário punido
+* Staff responsável
+* Motivo
+* Duração (quando aplicável)
+* Data e hora da punição
+
+---
+
+REGRA SOBRE AVATAR DO SERVIDOR
+
+Sempre que for possível:
+
+* Priorizar o avatar do perfil do servidor (guild avatar)
+* Não usar avatar global se o avatar do servidor existir
+* Isso se aplica a:
+
+  * Embeds de punição
+  * Comandos relacionados a moderação
+  * Visualização de perfil quando aplicável
+
+---
+
+VALIDAÇÃO E TESTES (REGRA NOVA)
+
+Antes de finalizar qualquer funcionalidade, a IA deve:
+
+* Testar:
+
+  * Fluxo completo do comando
+  * Casos de sucesso
+  * Casos de erro
+  * Falta de permissão
+  * Dados nulos ou ausentes
+* Garantir que:
+
+  * Nenhuma configuração seja perdida
+  * Nenhum comando quebre o painel
+  * Cancelamentos funcionem corretamente
+* Se algum ponto não estiver claro:
+
+  * Perguntar antes de implementar
+
+---
+
+REGRA FINAL
+
+* Nada deve sair do Discord
+* Nada deve ser implementado sem confirmação clara
+* Se algo não foi pedido, não deve existir
+* O comportamento do bot deve ser previsível, consistente e testado

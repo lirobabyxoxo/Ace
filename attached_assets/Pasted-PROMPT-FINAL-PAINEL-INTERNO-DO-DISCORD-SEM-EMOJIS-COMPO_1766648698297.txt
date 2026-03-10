@@ -1,0 +1,125 @@
+PROMPT FINAL — PAINEL INTERNO DO DISCORD (SEM EMOJIS)
+
+COMPORTAMENTO OBRIGATÓRIO DA IA
+
+- Antes de gerar qualquer código, perguntar sempre que houver dúvida.
+- Não inventar funções, comandos ou fluxos que não foram pedidos.
+- Não gerar dashboards web, páginas HTML, Express, React ou painéis externos.
+- Todo o funcionamento deve acontecer exclusivamente dentro do Discord.
+- Não utilizar modais.
+- Utilizar apenas embeds, botões e mensagens no chat.
+- Manter estilo minimalista, sem emojis automáticos.
+
+--------------------------------------------------
+
+COMANDO !painel
+
+PERMISSÃO
+
+- Apenas membros com cargo configurado como staff podem usar o comando.
+- Exibir informação de permissão, exemplo:
+  "Cargo na Staff: Moderador"
+
+--------------------------------------------------
+
+VISUAL DO PAINEL
+
+Ao executar !painel, o bot envia UMA embed estática com informações básicas
+e logo abaixo os botões disponíveis conforme o cargo.
+
+Botões visíveis para Moderador:
+- Editar Mute
+- Editar Ban
+
+Botões restritos (somente cargos mais altos, ex: Administrador):
+- Configurar Boost
+- Auto-delete
+- Configurar CL
+
+--------------------------------------------------
+
+EDITAR EMBED DE MUTE
+
+Fluxo:
+
+1. Staff clica em "Editar Mute"
+2. O bot envia:
+   - Uma embed com a PRÉVIA atual da embed de mute
+   - Logo abaixo, botões de edição
+
+Botões de edição:
+- Título
+- Descrição
+- Author
+- Imagem
+- Cor
+- Cancelar
+
+--------------------------------------------------
+
+FLUXO DE EDIÇÃO (PADRÃO PARA TODOS OS CAMPOS)
+
+Exemplo usando Cor:
+
+1. Staff clica no botão "Cor"
+2. Bot envia no chat:
+   "Qual o código HEX da cor que deseja configurar?"
+3. Staff responde no chat:
+   #000000
+4. Bot valida:
+   - Se válido:
+     "Cor atualizada com sucesso."
+   - Se inválido:
+     "Código HEX inválido. Tente novamente."
+5. A embed de prévia é atualizada automaticamente.
+
+--------------------------------------------------
+
+REGRA DE VALOR NULO
+
+- Caso algum campo seja definido como nulo, vazio ou cancelado:
+  - manter o valor padrão
+  - nunca deixar a embed quebrada
+
+--------------------------------------------------
+
+EDITAR EMBED DE BAN
+
+Funcionamento idêntico ao de Mute:
+
+1. Staff clica em "Editar Ban"
+2. Bot envia:
+   - Prévia da embed de ban
+   - Botões de edição
+
+Campos editáveis:
+- Título
+- Descrição
+- Author
+- Imagem
+- Cor
+
+Fluxo sempre via botões + resposta no chat.
+Nunca usar modal.
+
+--------------------------------------------------
+
+PADRÕES GERAIS
+
+- Sempre mostrar a prévia antes de editar
+- Atualizar a prévia após cada alteração
+- Não usar emojis
+- Não usar modais
+- Não permitir acesso sem permissão
+- Caso o usuário não responda:
+  - cancelar após timeout
+  - informar no chat
+
+--------------------------------------------------
+
+REGRAS FINAIS
+
+- Tudo acontece exclusivamente dentro do Discord
+- Nenhuma interface externa
+- Nenhuma função além das descritas
+- Se algo não estiver claro, perguntar antes de implementar

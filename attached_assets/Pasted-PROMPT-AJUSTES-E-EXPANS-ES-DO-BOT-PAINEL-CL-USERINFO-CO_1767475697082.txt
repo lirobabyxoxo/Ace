@@ -1,0 +1,163 @@
+PROMPT — AJUSTES E EXPANSÕES DO BOT (PAINEL / CL / USERINFO)
+
+COMPORTAMENTO OBRIGATÓRIO DA IA
+
+* Antes de gerar qualquer código, perguntar sempre que houver dúvida.
+* Não inventar funções, comandos ou sistemas que não foram pedidos.
+* Não gerar dashboards web.
+* Não gerar páginas HTML, Express, React ou painéis externos.
+* Todo o funcionamento deve acontecer exclusivamente dentro do Discord.
+* Não utilizar modais.
+* Utilizar apenas embeds, botões e mensagens no chat.
+* Testar todo o fluxo antes de finalizar qualquer implementação.
+* Emojis só devem ser usados quando explicitamente definidos neste prompt.
+
+---
+
+PROBLEMA ATUAL A SER CORRIGIDO
+
+* O sistema de CL NÃO está configurável pelo !painel.
+* Estatísticas não estão sendo exibidas.
+* O !painel não mostra prévia real das embeds configuradas.
+* O !userinfo não possui visual de UI (layout pobre / desorganizado).
+
+Esses pontos DEVEM ser corrigidos.
+
+---
+
+AJUSTE NO !painel — SISTEMA CL
+
+Adicionar no !painel o botão:
+
+* Configurar CL
+
+Esse botão deve permitir configurar novamente:
+
+* Mensagem gatilho do CL
+* Cargos permitidos para usar CL
+* Canal onde o CL pode funcionar
+* Quantidade de mensagens apagadas (ex: últimas 100 do autor)
+
+Fluxo:
+
+1. Staff usa !painel
+2. Clica em "Configurar CL"
+3. Bot mostra embed com configurações atuais
+4. Botões disponíveis:
+
+   * Configurar Gatilho
+   * Configurar Cargos Permitidos
+   * Configurar Canal
+   * Voltar
+
+Nenhuma configuração deve ser perdida sem confirmação.
+
+---
+
+ESTATÍSTICAS NO !painel
+
+Quando um staff usar !painel, o bot deve exibir estatísticas gerais do sistema, por exemplo:
+
+* Total de punições aplicadas
+* Total de mutes
+* Total de bans
+* Total de usos de CL
+* Total de emojis adicionados
+* Total de G Points acumulados no servidor
+
+As estatísticas devem:
+
+* Aparecer em embed separada
+* Ter visual organizado, estilo UI
+* Estar sempre atualizadas
+
+---
+
+PRÉVIA REAL DAS EMBEDS NO !painel
+
+Ao acessar:
+
+* Editar Mute
+* Editar Ban
+
+O bot deve:
+
+* Mostrar a embed REAL configurada
+* Mostrar GIF configurado (se existir)
+* Usar como thumbnail o avatar do usuário no servidor (guild avatar)
+
+A prévia deve parecer uma interface (!ui), não apenas texto.
+
+---
+
+AJUSTE NO !userinfo (VISUAL UI)
+
+O comando !userinfo deve ser reformulado para ter visual de UI, inspirado no bot Zany.
+
+Objetivo:
+
+* Transformar o !userinfo em um painel visual limpo e organizado.
+
+O !userinfo deve exibir:
+
+* Avatar do usuário (guild avatar, se existir)
+* Nome de usuário + menção
+* ID do usuário
+* Username / tag
+* Insígnias do Discord
+* Data de criação da conta
+* Data de entrada no servidor
+
+Tudo deve ser apresentado:
+
+* Em embed única
+* Com campos bem organizados
+* Estilo painel / UI
+* Sem poluição visual
+
+---
+
+EMOJIS PERMITIDOS NAS EMBEDS
+
+Utilizar EXCLUSIVAMENTE os seguintes emojis quando fizer sentido:
+
+Insígnias / Status:
+<:ActiveDeveloper:1445469975451144413>
+<:VerifiedDeveloper:1445469972758265956>
+<:CertifiedModerator:1445470015141974098>
+<:Staff:1445469964558532741>
+<:PremiumEarlySupporter:1445470057248325809>
+<:BugHunterLevel1:1445470006816276654>
+<:BugHunterLevel2:1445470009248714752>
+<:HypeSquad:1445470017540980837>
+<:HypeSquadOnlineHouse1:1445470019759898674>
+<:HypeSquadOnlineHouse2:1445470021575774362>
+<:HypeSquadOnlineHouse3:1445470193810935940>
+
+Boost:
+<:BoostLevel1:1445469979200716953>
+<:BoostLevel2:1445469981188948069>
+<:BoostLevel3:1445469982665347194>
+<:BoostLevel4:1445469985869791374>
+<:BoostLevel5:1445469992240943125>
+<:BoostLevel6:1445469994736550000>
+<:BoostLevel7:1445469996653351004>
+<:BoostLevel8:1445469998087929967>
+<:BoostLevel9:1445469999606005812>
+
+Perfil / UI:
+<:calendario2:1457114054765318227>
+<:id:1457114295329361952>
+<:insigna:1457113984967905280>
+<:username:1457114052785344593>
+
+---
+
+REGRAS FINAIS
+
+* Não usar emojis fora da lista.
+* Não remover funcionalidades existentes sem autorização.
+* CL deve voltar a ser totalmente configurável.
+* Estatísticas devem existir e ser visíveis.
+* !userinfo deve ter visual de UI.
+* Se houver qualquer dúvida, perguntar antes de implementar.

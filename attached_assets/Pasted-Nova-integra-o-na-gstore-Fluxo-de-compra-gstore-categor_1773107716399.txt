@@ -1,0 +1,44 @@
+Nova integração na gstore
+
+Fluxo de compra:
+
+!gstore -> categoria Cargos -> Teste <nome_do_vip> -> O bot adicionará o cargo caso o membro possa comprar.
+
+No !painel terá um botão de Teste Vip
+
+Ele irá ser responsavél por implementar o teste vip na store
+
+Fluxo de configuração : O administrador irá selecionar a opção de teste vip, o bot enviara uma embed que mostrará os teste vips ativos (Na embed haverá uma mensagem escrito "Nenhum teste vip configurado. Clique no botão Criar para começarmos" caso não tenha nenhum configurado.) junto de 3 botões; "Criar", "Excluir" e "Voltar.
+
+Criar: Ao usuario clicar neste botão o bot começara a configuração do teste vip por resposta.
+"Pergunta 1: Qual o cargo que será criado o teste vip?
+-# Digite cancelarpara cancelar a operação"
+
+O usuario responderá com o cargo e bot irá duplicar tanto a estética do cargo junto com "-teste" no final, quanto as permissões no servidor e canais (ele precisará ler todos os canais). Após configurado este ponto o bot perguntará outra coisa"
+
+"Pergunta 2: Quantos Gpoints ira custar?
+-# Digite cancelarpara cancelar a operação"
+
+O usuario responderá em quantidade decimal a quantidade de gpoints que o membro precisará para comprar o teste. Após configurado este ponto o bot perguntará outra coisa"
+
+"Pergunta 3: Quanto tempo durará o teste?
+-# Digite cancelarpara cancelar a operação"
+
+O usuario responderá com o tempo de teste. (Ex: 10m, 1h, 1d, 30d...). Após configurado este ponto o bot responderá com a embed de confirmação.
+
+EMBED DE CONFIRMAÇÃO
+
+"Teste de vip criado com sucesso!
+Vip teste: &@Cargo-que-o-criou
+Custo: <Custo definido pelo usuario>
+Tempo: <Tempo definido por usuario>"
+
+MENSAGENS DE ERRO:
+
+Erro de hierarquia: "Irmão sobe meu cargo ae. Consigo fazer nada sendo peblea."
+
+Erro nas perguntas: "Que!?. Você não entendeu.. você pode configurar desse jeito aqui (Só exemplo). <Exemplo de como deve ser configurado>"
+
+OBS: O <Exemplo de como deve ser configurado> será específico para cada pergunta.
+
+Erro caso o adm esteja com um cargo abaixo do cargo vip: Meio que... você... não pode alterar um cargo maio que o seu **PORRA ** <:aura:1454762227528892437> "

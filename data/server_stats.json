@@ -1,0 +1,65 @@
+{
+  "1382154258287427605": {
+    "daily": {
+      "messages": 0,
+      "media": 0,
+      "joins": 0,
+      "leaves": 1,
+      "lastUpdate": 1773163115472
+    },
+    "weekly": {
+      "messages": 1145,
+      "media": 58,
+      "joins": 6,
+      "leaves": 5
+    },
+    "monthly": {
+      "messages": 0,
+      "media": 0,
+      "joins": 0,
+      "leaves": 1
+    }
+  },
+  "1445469680730116169": {
+    "daily": {
+      "messages": 5,
+      "media": 0,
+      "joins": 0,
+      "leaves": 0,
+      "lastUpdate": 1773173468695
+    },
+    "weekly": {
+      "messages": 8,
+      "media": 0,
+      "joins": 0,
+      "leaves": 0
+    },
+    "monthly": {
+      "messages": 5,
+      "media": 0,
+      "joins": 0,
+      "leaves": 0
+    }
+  },
+  "1473109074286612671": {
+    "daily": {
+      "messages": 880,
+      "media": 19,
+      "joins": 3,
+      "leaves": 12,
+      "lastUpdate": 1773180968297
+    },
+    "weekly": {
+      "messages": 907,
+      "media": 19,
+      "joins": 4,
+      "leaves": 12
+    },
+    "monthly": {
+      "messages": 880,
+      "media": 19,
+      "joins": 3,
+      "leaves": 12
+    }
+  }
+}

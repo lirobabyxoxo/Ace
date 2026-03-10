@@ -1,0 +1,168 @@
+PROMPT — SISTEMA DE G POINTS (Gurizes Points)
+
+COMPORTAMENTO OBRIGATÓRIO DA IA
+
+* Antes de gerar qualquer código, perguntar sempre que houver dúvida.
+* Não inventar funções, comandos ou sistemas não solicitados.
+* Não gerar dashboards web.
+* Não gerar páginas HTML, Express, React ou painéis externos.
+* Todo o funcionamento deve acontecer exclusivamente dentro do Discord.
+* Não utilizar modais.
+* Utilizar apenas comandos, embeds, botões e mensagens no chat.
+* Estilo minimalista, sem emojis automáticos.
+* Remover completamente qualquer sistema de economia anterior.
+
+---
+
+OBJETIVO DO SISTEMA
+
+Criar um sistema de pontos inspirado nos pontos da Twitch, recompensando membros pela atividade real no servidor.
+
+A moeda será baseada em:
+
+* Tempo em call
+* Frequência de interação no chat
+
+Este sistema substitui totalmente qualquer economia antiga.
+
+---
+
+MOEDA
+
+Nome: G Point
+Identificador interno: gpoints
+
+Regras:
+
+* Não transferível
+* Não comprável
+* Apenas acumulável
+* Não resetável automaticamente
+* Apenas membros (bots são ignorados)
+
+---
+
+GANHO DE G POINTS — TEMPO EM CALL
+
+Regras:
+
+* Conta apenas quando o membro estiver em call de voz
+* Não contar se estiver:
+
+  * Server mute
+  * AFK
+* Mudança de call continua contando
+* Abrir câmera ou stream não altera a contagem
+* Bots são ignorados
+
+Funcionamento:
+
+* O bot registra o tempo total em call
+* O tempo é convertido em G Points em ciclos
+* Caso valores não estejam configurados, usar valores padrão
+
+Dados registrados:
+
+* Tempo total em call (em segundos ou minutos)
+* G Points gerados por call
+
+---
+
+GANHO DE G POINTS — INTERAÇÃO NO CHAT
+
+Regras:
+
+* Contabilizar mensagens enviadas
+* Ignorar:
+
+  * Bots
+  * Spam simples
+  * Mensagens repetidas
+* Utilizar cooldown por usuário
+
+Funcionamento:
+
+* Cada mensagem válida gera G Points
+* Cooldown impede farm automático
+* O bot soma os pontos gradualmente
+
+Dados registrados:
+
+* Total de mensagens válidas
+* G Points gerados por chat
+
+---
+
+DADOS SALVOS POR USUÁRIO
+
+* ID do usuário
+* Total de G Points acumulados
+* Tempo total em call
+* Total de mensagens contabilizadas
+* Última atividade registrada (para controle de spam)
+
+---
+
+COMANDO !perfil (ATUALIZADO)
+
+O comando !perfil deve exibir:
+
+* Usuário
+* G Points acumulados
+* Tempo total em call (formatado em horas/minutos)
+* Total de mensagens contabilizadas
+
+Regras:
+
+* Embed simples e limpa
+* Sem emojis
+* Apenas informações relacionadas ao sistema de G Points
+
+---
+
+COMANDO !g top
+
+Objetivo:
+Exibir ranking dos membros com mais G Points.
+
+Funcionamento:
+
+* Ordenado do maior para o menor
+* Exibir Top X membros (ex: Top 10)
+
+Formato:
+
+1. membro — X G Points
+2. membro — X G Points
+3. membro — X G Points
+
+Regras:
+
+* Ignorar bots
+* Não mostrar membros que saíram do servidor
+* Embed minimalista
+
+---
+
+REGRAS IMPORTANTES
+
+* Todo o sistema de economia anterior deve ser removido
+* G Points é o único sistema de pontuação
+* Nenhuma funcionalidade extra deve ser criada sem solicitação
+* Nenhum dashboard ou painel externo
+* Tudo deve funcionar apenas dentro do Discord
+
+---
+
+PREPARAÇÃO PARA FUTURO (NÃO IMPLEMENTAR AGORA)
+
+O sistema deve ser preparado, mas NÃO implementado, para:
+
+* Cargos automáticos por G Points
+* Recompensas internas
+* Loja baseada em G Points
+
+Se houver qualquer dúvida:
+
+* Perguntar antes de implementar
+* Não assumir comportamentos

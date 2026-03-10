@@ -1,0 +1,16 @@
+{
+  "1382154258287427605": {
+    "enabled": true,
+    "countCallsEnabled": true,
+    "pointsPerMinuteCall": 100,
+    "pointsPerMessage": 100000,
+    "messageCooldown": 30
+  },
+  "1473109074286612671": {
+    "enabled": true,
+    "countCallsEnabled": true,
+    "pointsPerMinuteCall": 1000,
+    "pointsPerMessage": 100,
+    "messageCooldown": 30
+  }
+}

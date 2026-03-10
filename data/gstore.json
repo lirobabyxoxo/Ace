@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "id": "banner_1773115454819",
+      "type": "banner",
+      "name": "Lilith no campo de trigo",
+      "description": "💢",
+      "price": 200,
+      "value": "https://i.imgur.com/4dCqPnt.jpeg",
+      "active": true
+    },
+    {
+      "id": "selo_1773117259928",
+      "type": "selo",
+      "name": "Beta Ace",
+      "description": "Para aqueles que participaram da primeira versão da Ace Bot",
+      "price": 1000,
+      "value": "https://i.imgur.com/dYxjjgx.png",
+      "active": true
+    },
+    {
+      "id": "cor_1773117371310",
+      "type": "cor",
+      "name": "Vermelho",
+      "description": "Cor vermelha bem vermelha vermelhuda grrr",
+      "price": 100,
+      "value": "#ff0000",
+      "active": true
+    },
+    {
+      "id": "cor_1773118817710",
+      "type": "cor",
+      "name": "Branco",
+      "description": "Branco",
+      "price": 2000,
+      "value": "#ffffff",
+      "active": true
+    },
+    {
+      "id": "banner_1773119987590",
+      "type": "banner",
+      "name": "Sadness Anime Girl",
+      "description": "Aquelas garota depressiva",
+      "price": 670,
+      "value": "https://i.imgur.com/4Q84Mol.jpeg",
+      "active": true
+    },
+    {
+      "id": "banner_1773121242723",
+      "type": "banner",
+      "name": "Lilith BloodMoon",
+      "description": "",
+      "price": 3700,
+      "value": "https://i.imgur.com/mYOglvE.jpeg",
+      "active": true
+    },
+    {
+      "id": "moldura_1773121676565",
+      "type": "moldura",
+      "name": "Anime Angry",
+      "description": "💢",
+      "price": 4100,
+      "value": "https://i.imgur.com/CvHN5ac.png",
+      "active": true
+    },
+    {
+      "id": "cor_1773122957728",
+      "type": "cor",
+      "name": "Rosa Claro",
+      "description": "Para garotas meigas",
+      "price": 6780,
+      "value": "#ffaded",
+      "active": true
+    },
+    {
+      "id": "banner_1773123437888",
+      "type": "banner",
+      "name": "Beach Night",
+      "description": "",
+      "price": 3200,
+      "value": "https://i.imgur.com/TfXhbhj.png",
+      "active": true
+    },
+    {
+      "id": "moldura_1773123509799",
+      "type": "moldura",
+      "name": "Alma saindo do corpo",
+      "description": "",
+      "price": 4100,
+      "value": "https://i.imgur.com/SkXd6mQ.png",
+      "active": true
+    },
+    {
+      "id": "moldura_1773123659383",
+      "type": "moldura",
+      "name": "Neon Cat Hoodie",
+      "description": "",
+      "price": 4100,
+      "value": "https://i.imgur.com/0uPVVTN.png",
+      "active": true
+    },
+    {
+      "id": "moldura_1773123844360",
+      "type": "moldura",
+      "name": "White Hole",
+      "description": "",
+      "price": 4100,
+      "value": "https://i.imgur.com/Zu8As6Y.png",
+      "active": true
+    }
+  ]
+}

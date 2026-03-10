@@ -1,0 +1,119 @@
+PROMPT — COMANDO !addemoji (ESTILO ZANY, COM FEEDBACK)
+
+COMPORTAMENTO OBRIGATÓRIO DA IA
+
+* Não inventar etapas extras.
+* Não pedir imagem.
+* Não pedir nome do emoji.
+* Não usar modais.
+* Não criar dashboards ou páginas externas.
+* Todo o funcionamento deve acontecer dentro do Discord.
+* Emojis são permitidos APENAS em mensagens de feedback (sucesso/erro).
+* Se houver dúvida, perguntar antes de implementar.
+
+---
+
+COMANDO
+
+!addemoji <emoji>
+
+Permitir múltiplos emojis:
+!addemoji <emoji> <emoji> <emoji>
+
+---
+
+FUNCIONAMENTO
+
+* O bot deve analisar a mensagem e identificar emojis personalizados do Discord.
+* Emojis devem estar separados por espaço.
+* Emojis Unicode devem ser ignorados.
+* Bots devem ser ignorados.
+
+Para cada emoji identificado, o bot deve:
+
+* Extrair:
+
+  * Nome original
+  * ID
+  * Se é animado
+* Gerar a URL do CDN do Discord.
+* Criar o emoji no servidor atual usando:
+
+  * O mesmo nome do emoji original
+  * A imagem original (estática ou animada)
+
+---
+
+PROCESSAMENTO DE VÁRIOS EMOJIS
+
+* O bot deve contar quantos emojis existem.
+* Processar um por um.
+* Continuar mesmo se algum falhar.
+* Mostrar progresso em uma embed.
+
+Exemplo de embed de progresso:
+
+Processando emoji 1/4: nome_do_emoji
+Progresso: 0%
+Adicionados: 0
+Falhas: 0
+
+Botão disponível:
+
+* Cancelar
+
+Cancelar:
+
+* Interrompe o processo
+* Mantém emojis já adicionados
+* Não reverte ações concluídas
+
+---
+
+FEEDBACK DE SUCESSO E ERRO (OBRIGATÓRIO)
+
+Para CADA emoji processado, o bot deve enviar feedback textual:
+
+SUCESSO:
+"✅ Emoji `nome_do_emoji` adicionado com sucesso."
+
+ERRO (exemplos):
+"❌ Não foi possível adicionar o emoji `nome_do_emoji` (sem permissões)."
+"⚠️ O emoji `nome_do_emoji` já existe no servidor."
+"❌ Limite de emojis do servidor atingido."
+"⚠️ Emoji inválido ou não suportado."
+
+---
+
+VALIDAÇÕES
+
+* Verificar permissões (Manage Emojis).
+* Verificar slots disponíveis no servidor.
+* Detectar emoji duplicado.
+* Ignorar emojis inválidos.
+
+---
+
+RESULTADO FINAL
+
+* Enviar uma embed final resumindo:
+
+  * Total de emojis adicionados
+  * Total de falhas
+* Estilo limpo e minimalista
+* Emojis permitidos apenas nos textos de feedback
+
+---
+
+ANTES DE FINALIZAR
+
+* Testar:
+
+  * Emoji estático
+  * Emoji animado
+  * Múltiplos emojis
+  * Emoji duplicado
+  * Falta de permissão
+* Se algo não estiver claro:
+
+  * Perguntar antes de implementar

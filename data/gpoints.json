@@ -1,0 +1,568 @@
+{
+  "1382154258287427605": {
+    "1040971397616373881": {
+      "gpoints": 31,
+      "voiceTimeSeconds": 120,
+      "messageCount": 29,
+      "lastMessageTime": 1768059139782
+    },
+    "1427437680504864870": {
+      "gpoints": 92,
+      "voiceTimeSeconds": 1200,
+      "messageCount": 82,
+      "lastMessageTime": 1768676855392,
+      "inventory": [
+        {
+          "id": "banner_1767544292250",
+          "name": "WillRE",
+          "type": "banner",
+          "value": "",
+          "boughtAt": 1767544359460
+        }
+      ],
+      "equipped": {
+        "banner": ""
+      }
+    },
+    "1456368248525295815": {
+      "gpoints": 44,
+      "voiceTimeSeconds": 606,
+      "messageCount": 34,
+      "lastMessageTime": 1767788430778
+    },
+    "1457372604079014012": {
+      "gpoints": 14,
+      "voiceTimeSeconds": 0,
+      "messageCount": 14,
+      "lastMessageTime": 1767546326470
+    },
+    "1350607211746820146": {
+      "gpoints": 24,
+      "voiceTimeSeconds": 784,
+      "messageCount": 11,
+      "lastMessageTime": 1768264306439
+    },
+    "1453936075155443803": {
+      "gpoints": 28,
+      "voiceTimeSeconds": 0,
+      "messageCount": 28,
+      "lastMessageTime": 1768676268299
+    },
+    "1291687458857287744": {
+      "gpoints": 2,
+      "voiceTimeSeconds": 0,
+      "messageCount": 2,
+      "lastMessageTime": 1767544371185
+    },
+    "1444741693155967106": {
+      "gpoints": 6,
+      "voiceTimeSeconds": 0,
+      "messageCount": 6,
+      "lastMessageTime": 1767542353922
+    },
+    "1368260820244496596": {
+      "gpoints": 7,
+      "voiceTimeSeconds": 0,
+      "messageCount": 7,
+      "lastMessageTime": 1767791554193
+    },
+    "1457253288943816755": {
+      "gpoints": 1,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1767542461043
+    },
+    "1446841989428416534": {
+      "gpoints": 33,
+      "voiceTimeSeconds": 1320,
+      "messageCount": 11,
+      "lastMessageTime": 1768060831762
+    },
+    "1448794603825135637": {
+      "gpoints": 31,
+      "voiceTimeSeconds": 0,
+      "messageCount": 31,
+      "lastMessageTime": 1768264141464
+    },
+    "1447758370852311071": {
+      "gpoints": 57,
+      "voiceTimeSeconds": 60,
+      "messageCount": 56,
+      "lastMessageTime": 1768676821949
+    },
+    "1423474963448467476": {
+      "gpoints": 25,
+      "voiceTimeSeconds": 0,
+      "messageCount": 25,
+      "lastMessageTime": 1768675929330
+    },
+    "1426513661366767676": {
+      "gpoints": 13,
+      "voiceTimeSeconds": 308,
+      "messageCount": 8,
+      "lastMessageTime": 1768676124218
+    },
+    "1415924754384425080": {
+      "gpoints": 27,
+      "voiceTimeSeconds": 519,
+      "messageCount": 19,
+      "lastMessageTime": 1767547212213
+    },
+    "1411410018594586686": {
+      "gpoints": 7,
+      "voiceTimeSeconds": 0,
+      "messageCount": 7,
+      "lastMessageTime": 1767547386553
+    },
+    "1458287446868623505": {
+      "gpoints": 2,
+      "voiceTimeSeconds": 0,
+      "messageCount": 2,
+      "lastMessageTime": 1767791114364
+    },
+    "1457735322476478494": {
+      "gpoints": 17,
+      "voiceTimeSeconds": 0,
+      "messageCount": 17,
+      "lastMessageTime": 1768676835655
+    },
+    "1343477101940047872": {
+      "gpoints": 1,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1767791348828
+    },
+    "259547393048051714": {
+      "gpoints": 6,
+      "voiceTimeSeconds": 0,
+      "messageCount": 6,
+      "lastMessageTime": 1768059647773
+    },
+    "514615689269608448": {
+      "gpoints": 6,
+      "voiceTimeSeconds": 0,
+      "messageCount": 6,
+      "lastMessageTime": 1768263741229
+    },
+    "989511777735807006": {
+      "gpoints": 22,
+      "voiceTimeSeconds": 240,
+      "messageCount": 18,
+      "lastMessageTime": 1768676810601
+    },
+    "1441604286848176243": {
+      "gpoints": 1,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1768059769583
+    },
+    "801259540644364309": {
+      "gpoints": 1,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1768059849999
+    },
+    "1458606485537034303": {
+      "gpoints": 2,
+      "voiceTimeSeconds": 0,
+      "messageCount": 2,
+      "lastMessageTime": 1768060761098
+    },
+    "287248209540022275": {
+      "gpoints": 7,
+      "voiceTimeSeconds": 0,
+      "messageCount": 7,
+      "lastMessageTime": 1768263931434
+    },
+    "1454437303316512824": {
+      "gpoints": 9,
+      "voiceTimeSeconds": 0,
+      "messageCount": 9,
+      "lastMessageTime": 1768264502497
+    },
+    "1448495926221082796": {
+      "gpoints": 14,
+      "voiceTimeSeconds": 0,
+      "messageCount": 14,
+      "lastMessageTime": 1768264707589
+    },
+    "1439995409857511518": {
+      "gpoints": 1,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1768263676160
+    },
+    "1457127458032848936": {
+      "gpoints": 1,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1768263732952
+    },
+    "1412815750850281494": {
+      "gpoints": 8,
+      "voiceTimeSeconds": 0,
+      "messageCount": 8,
+      "lastMessageTime": 1768675530797
+    },
+    "422166919450460172": {
+      "gpoints": 13,
+      "voiceTimeSeconds": 0,
+      "messageCount": 13,
+      "lastMessageTime": 1768676613499
+    },
+    "1291431583500210309": {
+      "gpoints": 2,
+      "voiceTimeSeconds": 0,
+      "messageCount": 2,
+      "lastMessageTime": 1768268703568
+    },
+    "1460442792571572453": {
+      "gpoints": 1,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1768268698965
+    },
+    "1462153114630226044": {
+      "gpoints": 20,
+      "voiceTimeSeconds": 0,
+      "messageCount": 20,
+      "lastMessageTime": 1768676836455
+    },
+    "1415802103074390016": {
+      "gpoints": 7,
+      "voiceTimeSeconds": 0,
+      "messageCount": 7,
+      "lastMessageTime": 1768675971126
+    },
+    "1327568470115745853": {
+      "gpoints": 2,
+      "voiceTimeSeconds": 0,
+      "messageCount": 2,
+      "lastMessageTime": 1768676210043
+    },
+    "1248975306891726972": {
+      "gpoints": 1,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1768676237328
+    },
+    "1444891647350411417": {
+      "gpoints": 2,
+      "voiceTimeSeconds": 0,
+      "messageCount": 2,
+      "lastMessageTime": 1768676394527
+    },
+    "945935715601100800": {
+      "gpoints": 1,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1768676537115
+    },
+    "768107160587468801": {
+      "gpoints": 11,
+      "voiceTimeSeconds": 685,
+      "messageCount": 0,
+      "lastMessageTime": 0
+    },
+    "1466181485290590380": {
+      "gpoints": 0,
+      "voiceTimeSeconds": 8,
+      "messageCount": 0,
+      "lastMessageTime": 0
+    }
+  },
+  "1473109074286612671": {
+    "1042755563659989072": {
+      "gpoints": 602,
+      "voiceTimeSeconds": 0,
+      "messageCount": 8,
+      "lastMessageTime": 1773167325889
+    },
+    "989511777735807006": {
+      "gpoints": 201,
+      "voiceTimeSeconds": 0,
+      "messageCount": 3,
+      "lastMessageTime": 1773154790622
+    },
+    "1476989810357833780": {
+      "gpoints": 1,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1773114243726
+    },
+    "1427437680504864870": {
+      "gpoints": 35484,
+      "voiceTimeSeconds": 0,
+      "messageCount": 147,
+      "lastMessageTime": 1773180968299,
+      "inventory": [
+        {
+          "id": "banner_1767539948757",
+          "name": "MYSTIC DRAGON ",
+          "type": "banner",
+          "value": "",
+          "boughtAt": 1773115107312
+        },
+        {
+          "id": "banner_1773115454819",
+          "name": "Lilith no campo de trigo",
+          "type": "banner",
+          "value": "https://i.imgur.com/4dCqPnt.jpeg",
+          "boughtAt": 1773115467837
+        },
+        {
+          "id": "selo_1773117259928",
+          "name": "Beta Ace",
+          "type": "selo",
+          "value": "https://i.imgur.com/dYxjjgx.png",
+          "boughtAt": 1773117275773
+        },
+        {
+          "id": "cor_1773117371310",
+          "name": "Vermelho",
+          "type": "cor",
+          "value": "#ff0000",
+          "boughtAt": 1773117383912
+        },
+        {
+          "id": "banner_1773121242723",
+          "name": "Lilith BloodMoon",
+          "type": "banner",
+          "value": "https://i.imgur.com/mYOglvE.jpeg",
+          "boughtAt": 1773121272555
+        },
+        {
+          "id": "moldura_1773121676565",
+          "name": "Anime Angry",
+          "type": "moldura",
+          "value": "https://i.imgur.com/CvHN5ac.png",
+          "boughtAt": 1773121723557
+        }
+      ],
+      "equipped": {
+        "banner": "https://i.imgur.com/mYOglvE.jpeg",
+        "selo": "https://i.imgur.com/dYxjjgx.png",
+        "color": "#ff0000",
+        "moldura": "https://i.imgur.com/CvHN5ac.png"
+      },
+      "aboutMe": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    "422166919450460172": {
+      "gpoints": 16100,
+      "voiceTimeSeconds": 0,
+      "messageCount": 57,
+      "lastMessageTime": 1773168096491,
+      "inventory": [
+        {
+          "id": "selo_1773117259928",
+          "name": "Beta Ace",
+          "type": "selo",
+          "value": "https://i.imgur.com/dYxjjgx.png",
+          "boughtAt": 1773148966285
+        },
+        {
+          "id": "cor_1773118817710",
+          "name": "Branco",
+          "type": "cor",
+          "value": "#ffffff",
+          "boughtAt": 1773151319579
+        },
+        {
+          "id": "banner_1773123437888",
+          "name": "Beach Night",
+          "type": "banner",
+          "value": "https://i.imgur.com/TfXhbhj.png",
+          "boughtAt": 1773151767683
+        },
+        {
+          "id": "moldura_1773123844360",
+          "name": "White Hole",
+          "type": "moldura",
+          "value": "https://i.imgur.com/Zu8As6Y.png",
+          "boughtAt": 1773151978749
+        }
+      ],
+      "equipped": {
+        "selo": "https://i.imgur.com/dYxjjgx.png",
+        "color": "#ffffff",
+        "banner": "https://i.imgur.com/TfXhbhj.png",
+        "moldura": "https://i.imgur.com/Zu8As6Y.png"
+      },
+      "aboutMe": "\"The bird of Hermes is my name. Eating my wings to keep me tame.\""
+    },
+    "1466185413176594432": {
+      "gpoints": 100,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1773116967389
+    },
+    "1391087257355816960": {
+      "gpoints": 900,
+      "voiceTimeSeconds": 0,
+      "messageCount": 9,
+      "lastMessageTime": 1773119731625
+    },
+    "259547393048051714": {
+      "gpoints": 11090,
+      "voiceTimeSeconds": 0,
+      "messageCount": 58,
+      "lastMessageTime": 1773171718847,
+      "aboutMe": "MUITO FODA MEU PERFIL ESTOU SOLTEIRA",
+      "inventory": [
+        {
+          "id": "banner_1773119987590",
+          "name": "Sadness Anime Girl",
+          "type": "banner",
+          "value": "https://i.imgur.com/4Q84Mol.jpeg",
+          "boughtAt": 1773120234555
+        },
+        {
+          "id": "cor_1773118817710",
+          "name": "Branco",
+          "type": "cor",
+          "value": "#ffffff",
+          "boughtAt": 1773120412455
+        },
+        {
+          "id": "moldura_1773123844360",
+          "name": "White Hole",
+          "type": "moldura",
+          "value": "https://i.imgur.com/Zu8As6Y.png",
+          "boughtAt": 1773123890716
+        },
+        {
+          "id": "banner_1773123437888",
+          "name": "Beach Night",
+          "type": "banner",
+          "value": "https://i.imgur.com/TfXhbhj.png",
+          "boughtAt": 1773123911846
+        },
+        {
+          "id": "moldura_1773123659383",
+          "name": "Neon Cat Hoodie",
+          "type": "moldura",
+          "value": "https://i.imgur.com/0uPVVTN.png",
+          "boughtAt": 1773124076054
+        },
+        {
+          "id": "selo_1773117259928",
+          "name": "Beta Ace",
+          "type": "selo",
+          "value": "https://i.imgur.com/dYxjjgx.png",
+          "boughtAt": 1773124343082
+        }
+      ],
+      "equipped": {
+        "banner": "https://i.imgur.com/TfXhbhj.png",
+        "color": "#ffffff",
+        "moldura": "https://i.imgur.com/0uPVVTN.png",
+        "selo": "https://i.imgur.com/dYxjjgx.png"
+      }
+    },
+    "1391706225359716393": {
+      "gpoints": 200,
+      "voiceTimeSeconds": 0,
+      "messageCount": 2,
+      "lastMessageTime": 1773121952182
+    },
+    "1350607211746820146": {
+      "gpoints": 2900,
+      "voiceTimeSeconds": 0,
+      "messageCount": 11,
+      "lastMessageTime": 1773172993671
+    },
+    "1466084203820220489": {
+      "gpoints": 1000,
+      "voiceTimeSeconds": 0,
+      "messageCount": 10,
+      "lastMessageTime": 1773162753742,
+      "aboutMe": "aaaa"
+    },
+    "1345773800284880896": {
+      "gpoints": 100,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1773151881027
+    },
+    "1426513661366767676": {
+      "gpoints": 400,
+      "voiceTimeSeconds": 0,
+      "messageCount": 4,
+      "lastMessageTime": 1773170318486
+    },
+    "1163497511307202680": {
+      "gpoints": 600,
+      "voiceTimeSeconds": 0,
+      "messageCount": 6,
+      "lastMessageTime": 1773153267100
+    },
+    "1480446192788701204": {
+      "gpoints": 300,
+      "voiceTimeSeconds": 0,
+      "messageCount": 3,
+      "lastMessageTime": 1773172158621
+    },
+    "1449198942175760445": {
+      "gpoints": 100,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1773154627409
+    },
+    "1468603158325497886": {
+      "gpoints": 100,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1773154798295
+    },
+    "1477085427889606778": {
+      "gpoints": 100,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1773155072496
+    },
+    "1446841989428416534": {
+      "gpoints": 600,
+      "voiceTimeSeconds": 0,
+      "messageCount": 6,
+      "lastMessageTime": 1773173864782
+    },
+    "1452849184515559535": {
+      "gpoints": 100,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1773162492803
+    },
+    "1439995409857511518": {
+      "gpoints": 100,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1773164237954
+    },
+    "1448794603825135637": {
+      "gpoints": 100,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1773164965369
+    },
+    "1343771641913540620": {
+      "gpoints": 100,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1773166780277
+    },
+    "1478391691021914122": {
+      "gpoints": 100,
+      "voiceTimeSeconds": 0,
+      "messageCount": 1,
+      "lastMessageTime": 1773172719756
+    }
+  },
+  "1445469680730116169": {
+    "1427437680504864870": {
+      "gpoints": 3,
+      "voiceTimeSeconds": 0,
+      "messageCount": 3,
+      "lastMessageTime": 1773173447514
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "1473109074286612671": {
+    "tests": [
+      {
+        "id": "vip_1773108666453",
+        "originalRoleId": "1473109170696884294",
+        "testRoleId": "1480749810238881932",
+        "testRoleName": "仮 ❯❯ Amethyst-teste",
+        "cost": 120,
+        "duration": 3600000,
+        "createdAt": 1773108666453
+      }
+    ]
+  }
+}

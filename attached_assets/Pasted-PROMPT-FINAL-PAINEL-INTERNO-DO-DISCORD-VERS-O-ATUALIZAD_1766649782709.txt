@@ -1,0 +1,182 @@
+PROMPT FINAL — PAINEL INTERNO DO DISCORD (VERSÃO ATUALIZADA)
+
+COMPORTAMENTO OBRIGATÓRIO DA IA
+
+- Antes de gerar qualquer código, perguntar sempre que houver dúvida.
+- Não inventar funções, comandos ou fluxos que não foram pedidos.
+- Não gerar dashboards web.
+- Não gerar páginas HTML, Express, React ou painéis externos.
+- Todo o funcionamento deve acontecer exclusivamente dentro do Discord.
+- Não utilizar modais.
+- Utilizar apenas embeds, botões e mensagens no chat.
+- Estilo minimalista, sem emojis automáticos.
+
+--------------------------------------------------
+
+ID DO DESENVOLVEDOR (DEV FIXO)
+
+- ID do DEV: 1427437680504864870
+- Este ID possui acesso total e irrestrito:
+  - ignora cargos
+  - ignora canais
+  - ignora permissões configuradas
+- O DEV sempre pode acessar todo o !painel.
+
+--------------------------------------------------
+
+COMANDO !painel
+
+PERMISSÃO INICIAL
+
+- Pode usar !painel:
+  - DEV (ID fixo)
+  - Dono do servidor
+  - Administrador do Discord
+- O bot NÃO assume quem é staff, moderador ou admin.
+- Tudo é configurado manualmente no painel.
+
+--------------------------------------------------
+
+VISUAL DO !painel
+
+- Uma embed estática com informações gerais
+- Logo abaixo, botões conforme permissões
+
+Botões principais:
+- Configurar Cargos
+- Configurar Canais
+
+Botões funcionais (dependem das permissões):
+- Editar Mute
+- Editar Ban
+- Configurar Boost
+- Auto-delete
+- Configurar CL
+- Configurar Logs
+
+--------------------------------------------------
+
+CONFIGURAR CARGOS
+
+Objetivo:
+Definir quais cargos podem usar quais comandos.
+
+CARGOS PRINCIPAIS
+
+- Cargo de Moderador
+- Cargo de Administrador
+
+REGRAS DE AGRUPAMENTO
+
+- Moderador:
+  - Editar Mute
+- Administrador:
+  - Editar Ban
+  - Configurar Boost
+  - Auto-delete
+  - Configurar CL
+  - Configurar Logs
+  - Configurar Cargos
+  - Configurar Canais
+
+--------------------------------------------------
+
+FLUXO — CONFIGURAR CARGOS
+
+1. Usuário autorizado clica em "Configurar Cargos"
+2. Bot envia embed com cargos atuais configurados
+3. Botões exibidos:
+   - Definir Cargo de Moderador
+   - Definir Cargo de Administrador
+
+--------------------------------------------------
+
+FLUXO — DEFINIR UM CARGO
+
+1. Staff clica em um botão (ex: Definir Cargo de Moderador)
+2. Bot pergunta no chat:
+   "Mencione o cargo ou envie o ID do cargo."
+3. Staff envia a menção ou ID
+4. Bot envia UMA embed contendo apenas descrição:
+
+   "O cargo escolhido foi @CargoSelecionado
+    Deseja prosseguir?"
+
+5. Abaixo da embed, três botões:
+   - CONFIRMAR
+   - EDITAR
+   - CANCELAR
+
+--------------------------------------------------
+
+COMPORTAMENTO DOS BOTÕES
+
+CONFIRMAR
+- Salva o cargo
+- Atualiza as permissões automaticamente
+- Retorna para a tela anterior de Configurar Cargos
+
+EDITAR
+- Bot pergunta novamente no chat:
+  "Mencione o cargo ou envie o ID do cargo."
+
+CANCELAR
+- NÃO cancela o !painel
+- Apenas retorna para a última página aberta
+- Nenhuma configuração é salva
+
+--------------------------------------------------
+
+CONFIGURAR CANAIS
+
+Objetivo:
+Definir onde cada sistema do bot pode enviar mensagens.
+
+Sistemas configuráveis:
+- Canal de Logs Gerais
+- Canal de Logs de Voz
+- Canal de Logs de Moderação
+- Canal de Auto-delete
+- Canal de CL
+- Canal de Mute
+- Canal de Ban
+
+--------------------------------------------------
+
+FLUXO — CONFIGURAR CANAIS
+
+1. Usuário autorizado clica em "Configurar Canais"
+2. Bot envia embed com canais atuais
+3. Botões para cada sistema
+4. Ao clicar:
+   - Bot pergunta no chat:
+     "Mencione o canal ou envie o ID do canal."
+5. Bot envia embed de confirmação igual ao fluxo de cargos:
+   "O canal escolhido foi #canal
+    Deseja prosseguir?"
+
+Botões:
+- CONFIRMAR
+- EDITAR
+- CANCELAR
+
+--------------------------------------------------
+
+INTEGRAÇÃO COM COMANDOS
+
+- Todos os comandos:
+  - verificam cargo configurado
+  - verificam canal configurado (quando aplicável)
+- Se nada estiver configurado, o comando não funciona
+- DEV ignora todas as verificações
+
+--------------------------------------------------
+
+REGRAS FINAIS
+
+- Nada é assumido automaticamente
+- Tudo é configurado via !painel
+- Sem dashboards
+- Sem modais
+- Apenas Discord
+- Se houver dúvida, perguntar antes de implementar

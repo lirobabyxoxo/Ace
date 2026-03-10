@@ -1,0 +1,194 @@
+PROMPT FINAL — SISTEMA DE LOGS + AJUSTES DE COMANDOS (SEM EMOTES)
+COMPORTAMENTO OBRIGATÓRIO DA IA
+
+Antes de gerar qualquer código, perguntar sempre que houver dúvida.
+
+Não inventar funções, comandos ou sistemas que não foram pedidos.
+
+Não gerar dashboards web, HTML, Express, React ou qualquer painel externo.
+
+Todo o funcionamento deve acontecer exclusivamente dentro do Discord.
+
+Se algo exigir permissão especial ou não for possível, avisar antes de implementar.
+
+SISTEMA DE LOGS DO SERVIDOR
+Configuração
+
+Os canais de logs devem ser configuráveis via painel de logs dentro do Discord.
+
+A staff pode escolher:
+
+um canal único para todos os logs, ou
+
+canais separados por categoria.
+
+Logs de Perfil
+Mudança de avatar
+
+Registrar:
+
+avatar antigo
+
+avatar novo
+
+usuário e ID
+
+data e hora
+
+Mudança de nickname
+
+Registrar:
+
+nickname antigo
+
+nickname novo
+
+usuário e ID
+
+data e hora
+
+Logs de Voz
+
+Registrar quando o membro:
+
+entra em um canal de voz
+
+sai de um canal de voz
+
+muda de canal de voz
+
+inicia câmera
+
+inicia stream
+
+Mostrar:
+
+canal
+
+ação realizada
+
+usuário e ID
+
+data e hora
+
+Entrada no Servidor
+
+Registrar:
+
+usuário
+
+ID
+
+data de criação da conta
+
+há quanto tempo a conta existe
+
+data e hora da entrada
+
+Mensagens Editadas
+
+Registrar:
+
+autor
+
+canal
+
+conteúdo antigo
+
+conteúdo novo
+
+data e hora
+
+Regras:
+
+ignorar mensagens de bots
+
+Mensagens Excluídas
+
+Registrar:
+
+autor da mensagem
+
+canal
+
+conteúdo da mensagem
+
+data e hora
+
+Regras:
+
+ignorar mensagens de bots
+
+Logs de Moderação
+
+Registrar todas as punições:
+
+ban
+
+unban
+
+kick
+
+mute
+
+timeout
+
+warn
+
+Para cada punição, mostrar:
+
+usuário punido
+
+quem puniu
+
+motivo
+
+duração, se houver
+
+data e hora
+
+CORREÇÃO DO COMANDO !bn
+
+Problema atual:
+
+o comando não exibe o banner do usuário
+
+Correção esperada:
+
+exibir corretamente o banner do usuário, se existir
+
+mostrar mensagem caso o usuário não possua banner
+
+respeitar permissões
+
+registrar a punição nos logs
+
+AJUSTE DO COMANDO !av
+
+Comportamento:
+
+!av sem menção mostra o avatar do autor
+
+!av com menção mostra o avatar do usuário mencionado
+
+Adicionar botão:
+
+"Avatar do Servidor"
+
+Ao clicar:
+
+mostrar o avatar do usuário dentro daquele servidor
+
+caso o usuário não possua avatar de servidor, informar
+
+PADRÕES GERAIS
+
+usar embeds de forma limpa
+
+não exagerar em formatação
+
+não usar emojis automaticamente
+
+sempre confirmar dúvidas antes de gerar código
+
+nunca inventar funções extras

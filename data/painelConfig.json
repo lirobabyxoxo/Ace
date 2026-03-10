@@ -1,0 +1,86 @@
+{
+  "1382154258287427605": {
+    "roles": {
+      "moderador": "1445764059122237460",
+      "admin": "1397689796410740876"
+    },
+    "channels": {
+      "logsGeral": "1422362451013275659",
+      "logsVoz": "1422362451013275659",
+      "logsModeracao": "1422362451013275659",
+      "autoDelete": "1422362451013275659",
+      "cl": "1422362451013275659",
+      "mute": "1422362451013275659",
+      "ban": "1422362451013275659"
+    },
+    "embeds": {
+      "ban": {
+        "title": "🔨 Usuário Banido",
+        "description": "O usuário foi banido do servidor.",
+        "color": "#ff0000",
+        "image": null
+      },
+      "mute": {
+        "title": "DESGRAÇA",
+        "description": "desgraçaaaa",
+        "color": "#FFFFFF",
+        "image": "https://media.discordapp.net/attachments/1382155072183599214/1469709999075885267/clean-and-minimalistic-vagabond.png?ex=6988a599&is=69875419&hm=63fee79b28d5c6b7a515e338df1533f541be1315cc40f1855202a7fb77a4912f&=&format=webp&quality=lossless&width=576&height=175"
+      }
+    },
+    "cl": {
+      "allowedRoles": [],
+      "triggerMessage": null,
+      "limit": 100
+    },
+    "autoDeleteTime": 10,
+    "gpoints": {
+      "enabled": true,
+      "pointsPerMinuteCall": 1,
+      "pointsPerMessage": 1,
+      "messageCooldown": 30,
+      "countCallsEnabled": true
+    }
+  },
+  "1473109074286612671": {
+    "roles": {
+      "moderador": "1473109094406553600",
+      "admin": "1473109091579723868"
+    },
+    "channels": {
+      "logsGeral": null,
+      "logsVoz": null,
+      "logsModeracao": null,
+      "autoDelete": null,
+      "cl": "1480773045470629959",
+      "mute": null,
+      "ban": null
+    },
+    "embeds": {
+      "ban": {
+        "title": "🔨 Usuário Banido",
+        "description": "O usuário foi banido do servidor.",
+        "color": "#ff0000",
+        "image": null
+      },
+      "mute": {
+        "title": "🔇 Usuário Mutado",
+        "description": "O usuário foi mutado.",
+        "color": "#ff6600",
+        "image": null
+      }
+    },
+    "cl": {
+      "allowedRoles": [],
+      "triggerMessage": null,
+      "limit": 100
+    },
+    "autoDeleteTime": 20,
+    "gpoints": {
+      "enabled": true,
+      "pointsPerMinuteCall": 1,
+      "pointsPerMessage": 1,
+      "messageCooldown": 30,
+      "countCallsEnabled": true
+    }
+  }
+}

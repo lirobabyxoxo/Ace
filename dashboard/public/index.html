@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ace - Dashboard</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/png" href="/favicon.png">
+</head>
+<body>
+    <div id="login-screen" class="screen">
+        <div class="login-container">
+            <div class="login-particles"></div>
+            <div class="login-card">
+                <div class="login-avatar">
+                    <img src="/favicon.png" alt="Ace">
+                </div>
+                <div class="login-logo">
+                    <h1>ACE</h1>
+                    <p>Organização, praticidade e diversão em um só bot</p>
+                </div>
+                <div class="login-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">&#9876;</span>
+                        <span>Moderação</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">&#9733;</span>
+                        <span>Points</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">&#9881;</span>
+                        <span>Configuração</span>
+                    </div>
+                </div>
+                <div class="login-buttons">
+                    <a href="/auth/discord" class="btn btn-discord">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>
+                        Entrar com Discord
+                    </a>
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=1428138632929083485&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer" class="btn btn-invite">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                        Adicionar ao Servidor
+                    </a>
+                </div>
+            </div>
+
+            <div class="servers-carousel-section">
+                <h2 class="showcase-title">Servidores que já adquiriram um jeitinho Ace</h2>
+                <div class="servers-carousel" id="servers-carousel">
+                    <div class="carousel-empty">Carregando servidores...</div>
+                </div>
+            </div>
+
+            <div class="commands-showcase">
+                <h2 class="showcase-title">Comandos</h2>
+                <div class="showcase-grid">
+                    <div class="showcase-card">
+                        <div class="showcase-card-header">
+                            <span class="showcase-icon">&#9876;</span>
+                            <h3>Administrativo</h3>
+                        </div>
+                        <div class="showcase-commands">
+                            <span class="cmd-tag">!ban</span>
+                            <span class="cmd-tag">!kick</span>
+                            <span class="cmd-tag">!mute</span>
+                            <span class="cmd-tag">!unmute</span>
+                            <span class="cmd-tag">!clear</span>
+                            <span class="cmd-tag">!lock</span>
+                            <span class="cmd-tag">!unlock</span>
+                            <span class="cmd-tag">!unban</span>
+                        </div>
+                    </div>
+                    <div class="showcase-card">
+                        <div class="showcase-card-header">
+                            <span class="showcase-icon">&#10084;</span>
+                            <h3>Roleplay</h3>
+                        </div>
+                        <div class="showcase-commands">
+                            <span class="cmd-tag">!kiss</span>
+                            <span class="cmd-tag">!hug</span>
+                            <span class="cmd-tag">!kill</span>
+                            <span class="cmd-tag">!pat</span>
+                            <span class="cmd-tag">!slap</span>
+                        </div>
+                    </div>
+                    <div class="showcase-card">
+                        <div class="showcase-card-header">
+                            <span class="showcase-icon">&#9733;</span>
+                            <h3>Points</h3>
+                        </div>
+                        <div class="showcase-commands">
+                            <span class="cmd-tag">!perfil</span>
+                            <span class="cmd-tag">!g top</span>
+                        </div>
+                    </div>
+                    <div class="showcase-card">
+                        <div class="showcase-card-header">
+                            <span class="showcase-icon">&#127922;</span>
+                            <h3>Jogos</h3>
+                        </div>
+                        <div class="showcase-commands">
+                            <span class="cmd-tag">!8ball</span>
+                        </div>
+                    </div>
+                    <div class="showcase-card">
+                        <div class="showcase-card-header">
+                            <span class="showcase-icon">&#9881;</span>
+                            <h3>Utilitários</h3>
+                        </div>
+                        <div class="showcase-commands">
+                            <span class="cmd-tag">!avatar</span>
+                            <span class="cmd-tag">!userinfo</span>
+                            <span class="cmd-tag">!ping</span>
+                            <span class="cmd-tag">!help</span>
+                        </div>
+                    </div>
+                    <div class="showcase-card">
+                        <div class="showcase-card-header">
+                            <span class="showcase-icon">&#127760;</span>
+                            <h3>Redes Sociais</h3>
+                        </div>
+                        <div class="showcase-commands">
+                            <span class="cmd-tag">!roblox</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="app-screen" class="screen" style="display:none !important;">
+        <div class="top-nav">
+            <div class="top-nav-brand">
+                <img src="/favicon.png" alt="Ace" class="top-nav-logo sidebar-logo">
+                <span class="top-nav-name">ACE</span>
+            </div>
+            <div class="top-nav-tabs">
+                <button class="top-tab active" data-tab="inicio">Inicio</button>
+                <button class="top-tab" data-tab="servidores">Servidores</button>
+                <button class="top-tab" data-tab="perfil">Perfil</button>
+            </div>
+            <div class="top-nav-user">
+                <div id="user-info" class="user-info"></div>
+                <a href="/auth/logout" class="btn btn-logout-top">Sair</a>
+            </div>
+        </div>
+
+        <div id="page-inicio" class="page-container">
+            <div class="welcome-card" id="welcome-card"></div>
+            <div class="inicio-stats-grid" id="inicio-stats"></div>
+            <div class="inicio-section" id="inicio-badges-section" style="display:none;">
+                <h3 class="inicio-section-title">Badges</h3>
+                <div class="badges-showcase" id="badges-showcase"></div>
+            </div>
+            <div class="inicio-section" id="inicio-boost-section" style="display:none;">
+                <h3 class="inicio-section-title">Boost</h3>
+                <div class="boost-list" id="boost-list"></div>
+            </div>
+        </div>
+
+        <div id="page-servidores" class="page-container" style="display:none;">
+            <div class="servidores-layout">
+                <nav class="sidebar">
+                    <div class="sidebar-header">
+                        <div class="sidebar-brand">
+                            <img src="/favicon.png" alt="Ace" class="sidebar-logo">
+                            <h2>ACE</h2>
+                        </div>
+                    </div>
+                    <div id="guild-selector" class="guild-selector"></div>
+                    <ul class="nav-menu" id="nav-menu" style="display:none;">
+                        <li><a href="#" data-section="overview" class="nav-link active"><span class="nav-icon">&#8862;</span> Visao Geral</a></li>
+
+                        <li class="nav-category" data-category="moderation">Moderacao</li>
+                        <li data-category="moderation"><a href="#" data-section="roles" class="nav-link"><span class="nav-icon">&#8859;</span> Cargos</a></li>
+                        <li data-category="moderation"><a href="#" data-section="channels" class="nav-link"><span class="nav-icon">&#8860;</span> Canais</a></li>
+                        <li data-category="moderation"><a href="#" data-section="cl" class="nav-link"><span class="nav-icon">&#8861;</span> CL (Tomalerda)</a></li>
+                        <li data-category="moderation"><a href="#" data-section="embeds" class="nav-link"><span class="nav-icon">&#8865;</span> Embeds Staff</a></li>
+                        <li data-category="moderation"><a href="#" data-section="autodelete" class="nav-link"><span class="nav-icon">&#8856;</span> Auto-Delete</a></li>
+
+                        <li class="nav-category" data-category="economy">Economia</li>
+                        <li data-category="economy"><a href="#" data-section="gpoints" class="nav-link"><span class="nav-icon">&#8853;</span> Points</a></li>
+                        <li data-category="economy"><a href="#" data-section="store" class="nav-link"><span class="nav-icon">&#8857;</span> Store</a></li>
+                        <li data-category="economy"><a href="#" data-section="viptests" class="nav-link"><span class="nav-icon">&#8855;</span> Teste VIP</a></li>
+                    </ul>
+                </nav>
+
+                <main class="content" id="main-content">
+                    <div id="no-guild" class="placeholder">
+                        <h2>Selecione um servidor</h2>
+                        <p>Escolha um servidor na barra lateral para comecar a configurar.</p>
+                    </div>
+
+                    <section id="section-overview" class="section" style="display:none;">
+                        <h2><span class="section-icon">&#8862;</span> Visao Geral</h2>
+                        <div class="stats-grid" id="stats-grid"></div>
+                    </section>
+
+                    <section id="section-roles" class="section" style="display:none;">
+                        <h2><span class="section-icon">&#8859;</span> Configurar Cargos</h2>
+                        <div class="config-card">
+                            <div class="form-group">
+                                <label>Cargo de Moderador</label>
+                                <select id="role-moderador" class="form-select"></select>
+                            </div>
+                            <div class="form-group">
+                                <label>Cargo de Administrador</label>
+                                <select id="role-admin" class="form-select"></select>
+                            </div>
+                            <button class="btn btn-save" onclick="saveRoles()">Salvar Cargos</button>
+                        </div>
+                    </section>
+
+                    <section id="section-channels" class="section" style="display:none;">
+                        <h2><span class="section-icon">&#8860;</span> Configurar Canais</h2>
+                        <div class="config-card">
+                            <div class="channels-grid" id="channels-grid"></div>
+                            <button class="btn btn-save" onclick="saveChannels()">Salvar Canais</button>
+                        </div>
+                    </section>
+
+                    <section id="section-cl" class="section" style="display:none;">
+                        <h2><span class="section-icon">&#8861;</span> Configurar CL (Tomalerda)</h2>
+                        <div class="config-card">
+                            <div class="form-group">
+                                <label>Mensagem Gatilho</label>
+                                <input type="text" id="cl-trigger" class="form-input" placeholder="Ex: tomalerda">
+                            </div>
+                            <div class="form-group">
+                                <label>Limite de Mensagens</label>
+                                <input type="number" id="cl-limit" class="form-input" placeholder="100">
+                            </div>
+                            <div class="form-group">
+                                <label>Cargos Permitidos</label>
+                                <select id="cl-roles" class="form-select" multiple></select>
+                            </div>
+                            <button class="btn btn-save" onclick="saveCL()">Salvar CL</button>
+                        </div>
+                    </section>
+
+                    <section id="section-embeds" class="section" style="display:none;">
+                        <h2><span class="section-icon">&#8865;</span> Embeds de Staff</h2>
+                        <div class="config-card">
+                            <div class="tabs">
+                                <button class="tab active" onclick="switchEmbedTab('ban')">Ban</button>
+                                <button class="tab" onclick="switchEmbedTab('mute')">Mute</button>
+                            </div>
+                            <div id="embed-editor">
+                                <div class="form-group">
+                                    <label>Titulo</label>
+                                    <input type="text" id="embed-title" class="form-input">
+                                </div>
+                                <div class="form-group">
+                                    <label>Descricao</label>
+                                    <textarea id="embed-description" class="form-input" rows="3"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label>Cor (HEX)</label>
+                                    <div class="color-input-group">
+                                        <input type="color" id="embed-color-picker" class="form-color">
+                                        <input type="text" id="embed-color" class="form-input" placeholder="#ff0000">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Imagem/GIF (URL)</label>
+                                    <input type="text" id="embed-image" class="form-input" placeholder="https://...">
+                                </div>
+                                <button class="btn btn-save" onclick="saveEmbed()">Salvar Embed</button>
+                            </div>
+                            <div class="embed-preview" id="embed-preview"></div>
+                        </div>
+                    </section>
+
+                    <section id="section-gpoints" class="section" style="display:none;">
+                        <h2><span class="section-icon">&#8853;</span> Configurar Points</h2>
+                        <div class="config-card">
+                            <div class="form-group toggle-group">
+                                <label>Sistema Ativo</label>
+                                <label class="toggle"><input type="checkbox" id="gpoints-enabled"><span class="slider"></span></label>
+                            </div>
+                            <div class="form-group toggle-group">
+                                <label>Contar Calls</label>
+                                <label class="toggle"><input type="checkbox" id="gpoints-calls"><span class="slider"></span></label>
+                            </div>
+                            <div class="form-group">
+                                <label>Pontos por Minuto em Call</label>
+                                <input type="number" id="gpoints-perminute" class="form-input" min="0">
+                            </div>
+                            <div class="form-group">
+                                <label>Pontos por Mensagem</label>
+                                <input type="number" id="gpoints-permsg" class="form-input" min="0">
+                            </div>
+                            <div class="form-group">
+                                <label>Cooldown de Mensagem (segundos)</label>
+                                <input type="number" id="gpoints-cooldown" class="form-input" min="0">
+                            </div>
+                            <button class="btn btn-save" onclick="saveGPoints()">Salvar Points</button>
+                        </div>
+                    </section>
+
+                    <section id="section-viptests" class="section" style="display:none;">
+                        <h2><span class="section-icon">&#8855;</span> Testes VIP</h2>
+                        <div class="config-card">
+                            <div id="viptests-list"></div>
+                        </div>
+                    </section>
+
+                    <section id="section-store" class="section" style="display:none;">
+                        <h2><span class="section-icon">&#8857;</span> Gerenciar Store</h2>
+                        <div class="config-card" style="margin-bottom: 1.5rem;">
+                            <h3 style="color: var(--accent); margin-bottom: 1rem; font-size: 1rem;">Adicionar Item</h3>
+                            <div class="store-form-grid">
+                                <div class="form-group">
+                                    <label>Tipo</label>
+                                    <select id="store-item-type" class="form-select">
+                                        <option value="cor">Cor</option>
+                                        <option value="banner">Banner</option>
+                                        <option value="selo">Selo</option>
+                                        <option value="moldura">Moldura</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Nome</label>
+                                    <input type="text" id="store-item-name" class="form-input" placeholder="Nome do item">
+                                </div>
+                                <div class="form-group">
+                                    <label>Descricao</label>
+                                    <input type="text" id="store-item-desc" class="form-input" placeholder="Descricao breve">
+                                </div>
+                                <div class="form-group">
+                                    <label>Preco (Points)</label>
+                                    <input type="number" id="store-item-price" class="form-input" min="1" placeholder="100">
+                                </div>
+                                <div class="form-group">
+                                    <label>Valor</label>
+                                    <div class="color-input-group" id="store-value-group">
+                                        <input type="color" id="store-item-color-picker" class="form-color">
+                                        <input type="text" id="store-item-value" class="form-input" placeholder="#FF0000">
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-save" onclick="addStoreItem()">Adicionar Item</button>
+                        </div>
+                        <div class="config-card">
+                            <h3 style="color: var(--accent); margin-bottom: 1rem; font-size: 1rem;">Itens Cadastrados</h3>
+                            <div id="store-items-list"></div>
+                        </div>
+                    </section>
+
+                    <section id="section-autodelete" class="section" style="display:none;">
+                        <h2><span class="section-icon">&#8856;</span> Auto-Delete</h2>
+                        <div class="config-card">
+                            <div class="form-group">
+                                <label>Tempo de Auto-Delete (segundos, 0 para desativar)</label>
+                                <input type="number" id="autodelete-time" class="form-input" min="0">
+                            </div>
+                            <button class="btn btn-save" onclick="saveAutoDelete()">Salvar</button>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
+
+        <div id="page-perfil" class="page-container" style="display:none;">
+            <div class="perfil-container">
+                <h2 class="perfil-title">Meus Perfis</h2>
+                <div class="perfil-grid" id="perfil-grid">
+                    <div class="empty-state">Carregando perfis...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+    <script src="/app.js"></script>
+</body>
+</html>

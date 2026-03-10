@@ -1,0 +1,175 @@
+⚠️ Regras obrigatórias da IA:
+
+Antes de gerar código, pergunte sempre que houver dúvidas.
+
+Nunca invente funções, sistemas, eventos, comandos ou fluxos que eu não pedi.
+
+Nunca gere dashboards web, sites, HTML, Express, React ou qualquer painel externo.
+
+Todo o funcionamento acontece exclusivamente dentro do Discord.
+
+Se eu pedir algo impossível ou que precise de permissão extra, você deve explicar claramente antes de tentar.
+
+Sempre trabalhar com embeds, botões, selects e modais dentro do Discord.
+
+💜 SISTEMA DE BOOST – Comando !boost
+📌 Funcionamento básico
+
+Quando o usuário usar !boost:
+
+O bot verifica se o usuário é booster do servidor.
+
+Se não for, exibe:
+
+❌ | Você não possui boosts ativos neste servidor.
+
+Se o membro for booster, o bot envia uma embed com:
+
+Quantos boosts ele possui
+
+Desde quando ele está boostando
+
+Há quantos dias boosta
+
+Nome atual do cargo de booster
+
+Botões:
+
+Alterar Nome
+
+Alterar Cor
+
+Alterar Ícone (emoji)
+
+Adicionar Emoji ao Servidor
+
+Cancelar
+
+quando o membro der boost pela primeira vez:
+
+o bot cria o cargo automaticamente usando o nickname atual do usuário
+
+coloca o cargo na posição configurada pela staff
+
+atribui o cargo ao usuário
+
+🧩 OPÇÕES DO COMANDO !boost
+🔤 1. Alterar nome do cargo
+
+Bot abre um modal:
+
+Pergunta qual nome deseja
+
+Usuário responde
+
+Bot atualiza o cargo
+
+🎨 2. Alterar cor do cargo
+
+Bot abre um modal:
+
+“Envie um código HEX para a cor desejada”
+
+Envia o link (sem embed):
+https://htmlcolorcodes.com
+
+Usuário responde
+
+Bot atualiza a cor do cargo
+
+😈 3. Alterar ícone do cargo (emoji)
+
+Bot pede para o usuário enviar um emoji
+
+Bot atualiza o ícone do cargo
+
+🌈 4. Sistema !addemoji integrado ao !boost
+
+Usuário booster pode usar:
+
+!addemoji 😈 😂 😎
+
+
+Ou apenas um emoji:
+
+!addemoji 😈
+
+🔧 Fluxo:
+
+O bot identifica todos os emojis na mensagem
+
+Processa um por um
+
+Envia UMA ÚNICA EMBED com barra de progresso:
+
+Exemplo:
+
+Processando emoji 1/4: 😈
+Progresso: 20%
+Tempo restante: estimando...
+Adicionados: 0
+Falhas: 0
+
+❌ Botão "Cancelar"
+
+Enquanto processa, mostra um botão “Cancelar”
+
+Se clicar: interrompe o processamento imediatamente
+
+🛠 PAINEL DA STAFF – !painel → “Configurar Boost”
+
+Quando um administrador abre o painel, existe um botão:
+
+🟪 Configurar Boost
+
+Ao clicar, abre um submenu com:
+
+1) Quantos boosts são necessários para liberar o menu
+
+1
+
+2
+
+2) Nome-base dos cargos criados
+
+Exemplo:
+
+{username}
+
+Booster — {nickname}
+
+VIP — {tag}
+
+3) Posição padrão dos cargos criados
+
+Staff configura em qual parte da hierarquia o cargo nasce
+
+4) Se boosters podem usar !addemoji
+
+Ativar / Desativar
+
+5) Limites opcionais
+
+Quantidade máxima de alterações por hora
+
+Quais opções são permitidas (nome, cor, ícone, addemoji)
+
+Restrição de horário (opcional)
+
+6) Salvar Configurações
+
+Bot salva tudo no banco (Replit)
+
+✨ COMPORTAMENTO PADRÃO
+
+Sem cooldown obrigatório (totalmente livre)
+
+Não limita tentativas a menos que a staff configure
+
+Sempre perguntar ao usuário quando algo não estiver claro
+
+Sempre responder usando embeds
+
+Nunca quebrar o fluxo
+
+Nunca inventar função nova além das listadas

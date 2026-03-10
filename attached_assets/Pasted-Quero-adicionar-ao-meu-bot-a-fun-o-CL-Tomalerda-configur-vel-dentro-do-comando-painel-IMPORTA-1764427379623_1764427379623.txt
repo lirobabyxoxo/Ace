@@ -1,0 +1,88 @@
+Quero adicionar ao meu bot a função CL (Tomalerda), configurável dentro do comando !painel.
+
+IMPORTANTE:
+
+Nada de website, nada de dashboard web, nada de HTML.
+
+Tudo deve ser feito somente dentro do Discord, com botões, menus e modals.
+
+Se houver qualquer dúvida, pergunte antes de gerar código.
+
+✔ Função CL (Tomalerda)
+
+O comando CL deve funcionar assim:
+
+O membro manda uma frase específica configurada pelo staff.
+
+O bot apaga as últimas 100 mensagens daquele próprio membro (somente do autor).
+
+O bot só executa CL se o membro tiver um dos cargos permitidos.
+
+✔ O que quero adicionar no !painel
+
+Dentro do painel, deve aparecer um terceiro botão:
+
+Configurar CL
+
+Ao clicar em Configurar CL, aparecem mais 2 botões:
+
+Configurar Cargos
+
+Configurar Mensagem
+
+✔ Fluxo de "Configurar Cargos"
+
+Quando o staff clicar em “Configurar Cargos”:
+
+Abrir um menu suspenso (select menu) listando os cargos do servidor.
+
+O staff escolhe quais cargos podem usar o CL.
+
+Salvar isso em JSON, por exemplo:
+data/clConfig.json
+
+✔ Fluxo de "Configurar Mensagem"
+
+Quando o staff clicar em “Configurar Mensagem”:
+
+Abrir um modal com um campo de texto.
+
+O staff escreve a mensagem-chave que ativará o CL.
+
+Exemplo: “tomalerda” ou “cl”
+
+Salvar isso no mesmo JSON.
+
+✔ Funcionamento final do CL
+
+Quando qualquer membro enviar uma mensagem:
+
+O bot verifica se a mensagem é igual à mensagem-chave configurada.
+
+Verifica se o autor tem um dos cargos permitidos.
+
+Se sim:
+
+O bot apaga até 100 mensagens recentes somente daquele membro (nunca de outros).
+
+Se possível, mandar a mensagem configurada no painel (feedback).
+
+Se não tiver cargo permitido, ignorar.
+
+✔ O que você deve entregar
+
+Botão Configurar CL no painel
+
+Sub-botões Configurar Cargos e Configurar Mensagem
+
+Menu suspenso para escolher cargos
+
+Modal para definir a mensagem-chave
+
+Arquivo JSON salvando as permissões e mensagem
+
+Listener que detecta a mensagem configurada e executa o CL
+
+Apagar até 100 mensagens do próprio autor
+
+Antes de gerar o código, pergunte se há alguma dúvida.

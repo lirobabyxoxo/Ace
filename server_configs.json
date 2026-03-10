@@ -1,0 +1,51 @@
+{
+  "1420950223508738080": {
+    "stats": {
+      "bans": 0,
+      "mutes": 0,
+      "kicks": 0
+    },
+    "statusChecker": {
+      "enabled": false,
+      "requiredText": null,
+      "roleId": null,
+      "channelId": null,
+      "embedConfig": {
+        "title": null,
+        "description": null,
+        "image": null,
+        "thumbnail": null
+      },
+      "monitoredUsers": {}
+    },
+    "embedConfigs": {
+      "mute": {
+        "title": "Usuário Mutado",
+        "description": "O usuário foi mutado do servidor.",
+        "color": 16711680
+      },
+      "ban": {
+        "title": "Usuário Banido",
+        "description": "O usuário foi banido do servidor.",
+        "color": 16711680
+      }
+    }
+  },
+  "1382154258287427605": {
+    "randomRole": "1382154258287427605",
+    "verifiedRole": "1397689520475996282",
+    "notifyChannel": "1419348082847514786",
+    "configuredAt": "2025-09-29T23:18:18.498Z",
+    "configuredBy": "1417915214082605186",
+    "ticketSystem": {
+      "categoria": "1382154258941481122",
+      "logsChannel": "1422362451013275659",
+      "staffRole": "1397690038778593320",
+      "ticketCounter": 13,
+      "activeTickets": {},
+      "configuredAt": "2025-09-29T23:20:46.008Z",
+      "configuredBy": "1417915214082605186"
+    },
+    "autoDeleteTime": 40
+  }
+}

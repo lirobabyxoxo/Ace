@@ -1,0 +1,29 @@
+{
+  "staff": [
+    "422166919450460172"
+  ],
+  "1427437680504864870": {
+    "stats": {
+      "bans": 1,
+      "mutes": 8
+    },
+    "mute": {
+      "title": "TESTE",
+      "description": "mANO É SÓ UM TESTE NÃO ME MATA CARA PELO AMOR DE DEUS",
+      "color": "#0d0d0d",
+      "image": "https://i.imgur.com/MjPvRqb.gif"
+    },
+    "ban": {
+      "title": "TESTE",
+      "description": "mANO É SÓ UM TESTE NÃO ME MATA CARA PELO AMOR DE DEUS",
+      "color": "#000000",
+      "image": "https://i.imgur.com/MjPvRqb.gif"
+    }
+  },
+  "259547393048051714": {
+    "stats": {
+      "bans": 0,
+      "mutes": 1
+    }
+  }
+}
